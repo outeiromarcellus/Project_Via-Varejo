@@ -5,10 +5,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Via Varejo</title>
 </head>
 
 <body>
+    <header>
+        <svg class="logo esp-head" width="33" height="32" viewBox="0 0 33 32" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M24.4783 25.3684C26.2792 25.3684 27.7391 23.8957 27.7391 22.0789C27.7391 20.2622 26.2792 18.7895 24.4783 18.7895C22.6773 18.7895 21.2174 20.2622 21.2174 22.0789C21.2174 23.8957 22.6773 25.3684 24.4783 25.3684ZM24.4783 25.3684C21.5968 25.3684 19.2609 27.7248 19.2609 30.6316H29.6957C29.6957 27.7248 27.3597 25.3684 24.4783 25.3684ZM12.7391 8.92105C12.7391 12.1912 10.1112 14.8421 6.86957 14.8421C3.62789 14.8421 1 12.1912 1 8.92105C1 5.65095 3.62789 3 6.86957 3C10.1112 3 12.7391 5.65095 12.7391 8.92105ZM1 18.7895H12.7391V30.6316H1V18.7895ZM24.4783 3L31 14.8421H17.9565L24.4783 3Z"
+                stroke="#333333" stroke-width="2" stroke-linecap="square" />
+        </svg>
+
+        <h2 class="esp-head">Controle financeiro</h2>
+
+        <nav class="nav-list esp-head">
+
+            <span class="hmb"></span>
+            <!--<ul>
+                <li> <a href="/">Cadastro de transações</a></li>
+                <li> <a href="/">Limpar dados</a></li>
+            </ul>
+        -->
+        </nav>
+    </header>
+
+    <section class="container">
+        <section class="sec-topo">
+            <form>
+                <div class="div-input">
+                    <label for="tp">
+                        <p>Tipo de transação</p>
+                    </label>
+
+                    <select id="tp" name="Tipo de transação">
+                        <option value="Compra">Compra</option>
+                        <option value="Venda">Venda</option>
+                    </select>
+                </div>
+
+                <div class="div-input">
+                    <label for=" nome">
+                        <p>Nome da mercadoria</p>
+                    </label>
+
+                    <input type="text" id="nome" placeholder="input">
+                </div>
+
+                <div class="div-input">
+                    <label for="valor">
+                        <p>Valor</p>
+                    </label>
+                    <input type="number" id="valor" placeholder="R$ 0,00">
+                </div>
+
+                <input id="button" type="submit" value="Adicionar transação">
+
+            </form>
+        </section>
+        <br>
+
+        <hr>
+
+        <section class="extrato">
+            <h3>Extrato de transações</h3>
+            <div class="container-valor">
+                <table>
+                    <tr>
+                        <th>Mercadoria</th>
+                        <th>Valor</th>
+                    </tr>
+                    <tr>
+                        <td>+ Lorem ipsum dolor sit amet consetur</td>
+                        <td>R$ 12.999,99</td>
+                    </tr>
+                    <tr>
+                        <td>- Quis nostrud exercitation</td>
+                        <td>R$ 99,99</td>
+                    </tr>
+                    <tr>
+                        <td>+ Lorem ipsun</td>
+                        <td>R$ 9,99</td>
+                    </tr>
+                    <tr>
+
+                        <hr>
+
+                        <td>Total</td>
+                        <td>12.909,99</td>
+                    </tr>
+                </table>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+    </section>
+
 
 </body>
 

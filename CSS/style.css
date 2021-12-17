@@ -1,0 +1,27 @@
+form {
+  margin-left: 27px;
+  max-width: 371px;
+}
+
+.div-input {
+  flex-direction: column;
+  display: flex;
+}
+
+.div-input,
+#button {
+  margin-top: 20px;
+}
+
+.div-input p {
+  margin-bottom: 2.78px;
+}
+
+input,
+select {
+  background: #ffffff;
+  height: 32px;
+  box-sizing: border-box;
+  border: 1px solid #979797;
+  border-radius: 4px;
+}
