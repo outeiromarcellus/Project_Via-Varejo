@@ -25,3 +25,9 @@ select {
   border: 1px solid #979797;
   border-radius: 4px;
 }
+
+#button {
+  color: #ffffff;
+  width: 100%;
+  background-color: #333333;
+}
